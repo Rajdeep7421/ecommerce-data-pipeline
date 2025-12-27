@@ -2,6 +2,9 @@
 This project demonstrates an End-to-End Data Engineering pipeline using **Azure Databricks** and **Delta Lake**. It processes raw e-commerce data through Bronze, Silver, and Gold layers to provide actionable business insights.
 
 ## 🏗️ Architecture
+
+![Project Architecture Diagram](images/diagram.png)
+
 The pipeline follows the **Medallion Architecture**:
 * **Bronze:** Raw CSV ingestion with schema enforcement.
 * **Silver:** Data cleaning, type casting, and feature engineering (Date/Time extraction).
